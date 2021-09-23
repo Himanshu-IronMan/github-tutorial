@@ -1,0 +1,99 @@
+{ press tab in git bash to auto complete the names of file }
+
+1) git config --global user.name himanshu
+=to add a user in git.
+
+2) git config --global user.email atrihimanshu8@gmail.com
+=to add an email address.
+
+3) git config --global user.name
+=to see the current user name
+
+4)git config --global user.email
+=to see the email address of current user
+
+5) code .
+=to start visual studio code
+
+6) git init
+=to intialise a repository. ( creating a new repository ) 
+
+7) ls -lart
+=to see all the folders including the hidden folders.
+
+8)git status
+=to see the current status
+
+9)git add index.html
+=to add the a file in staging area. (If the file name contains space than use this way: git add git\ commands.txt)
+
+10) git commit
+=to save the changes. after doing this a vim terminal will open. 
+(first press i then type your comment then press esc button and then type :wq and then press enter.)
+
+11)touch about.html
+=to make file named about.html
+
+12)git add -A
+=to add all the files to staging area.
+
+13)git commit -m "added some html"
+=it will directly save the changes without going inside the vim terminal. In " " you will type your comment.
+
+14) clear
+=to clear the terminal.
+
+15) git checkout contact.html
+=to recover the data saved in the last commit. ( only for contact.html )
+
+16)git checkout -f
+=to recover the data saved in the last commit. ( for all files )
+
+17) git log 
+=to show all the details about the commits made till now.
+
+18)git log -p -1
+=to see the details of latest and limited number of commits. it will be from newest to oldest and the number will decide the number of 
+commits you want to see. seeing only 1 commit will show more details about the commit like the lines in which changes made and what
+changes are made. (press q to come outside of the command)
+
+19) git diff 
+=to see the changes I made in the current file. It basically compares the file in the computer with the latest commit we made so we can 
+see the difference between the file we saved in the repository and the file we have now. it shows the changes we made after the last 
+commit.
+
+20)git diff --staged
+=to compare the last commit with the file we just staged.
+
+21) git commit -a -m "skipping the staging area"
+=to stage and commit all the files together. here we are not sending the file in the staging process. we are directly commiting it. it is 
+advised to avoid using this command too much. 
+
+22) ls
+=to see all the files in our folder. (in the folder not in repository)
+
+23)git rm --chached waste.html
+=to delete a file from repository. if you commited a file and now you want to delete it. that file will still remain in hardisk.
+
+24)git rm waste.html
+=to delete the file from repository as well as from hardisk.
+
+25) touch .gitignore
+=to create a git ignore file. write the name of the files in git ignore file you don't want to add in repository and git will ignore those files.
+to ignore a specifice type of file like all the log files then write *.log in gitignore. this can be done with every type of file.
+to ignore a specifice folder type the name of folder and put a / after it. for example ignore/
+
+26) git branch feature1
+= to create a branch named feature1
+
+27) git branch
+= to see all branches
+
+28) git checkout feature1
+= to switch from current branch to feature1
+
+29) git merge feature1
+= to merge feature1 changes in the current branch. we need to stay in the branch where we want to add the changes of 
+feature1.
+
+30)
