@@ -93,7 +93,11 @@ to ignore a specifice folder type the name of folder and put a / after it. for e
 = to switch from current branch to feature1
 
 29) git merge feature1
-= to merge feature1 changes in the current branch. we need to stay in the branch where we want to add the changes of 
-feature1.
+= to merge feature1 changes in the current branch. we need to stay in the branch where we want to add the changes of feature1.
 
-30)
+30) git remote add origin https://github.com/Himanshu-IronMan/github-tutorial.git
+=to add it to the repository in github. to get this first create a new project in github and then copy this from "or create this from command
+line" option.
+
+31) git remote
+= to see all the remote.
